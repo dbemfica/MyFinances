@@ -1,0 +1,17 @@
+{
+    "name": "bemfica/my-finances",
+    "authors": [
+        {
+            "name": "Diogo Bemfica",
+            "email": "diogo.fragabemfica@gmail.com"
+        }
+    ],
+    "require": {
+        "robmorgan/phinx": "0.7.1"
+    },
+    "autoload":{
+        "psr-4":{
+            "bemfica\\FInances\\": "src/"
+        }
+    }
+}
